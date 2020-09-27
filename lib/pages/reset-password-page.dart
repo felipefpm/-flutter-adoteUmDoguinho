@@ -96,7 +96,7 @@ class ResetPasswordPage extends StatelessWidget {
             ),
             SizedBox(
               height: 20,
-            )
+            ),
           ],
         ),
         padding: EdgeInsets.only(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_page/pages/reset-password-page.dart';
+import 'package:login_page/pages/singup-page.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -135,7 +136,13 @@ class LoginPage extends StatelessWidget {
             Container(
               height: 40,
               child: FlatButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignupPage(),
+                      ));
+                },
                 child: Text(
                   "Cadastre-se",
                   textAlign: TextAlign.center,
