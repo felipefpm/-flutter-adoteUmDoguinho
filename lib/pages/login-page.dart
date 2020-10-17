@@ -107,6 +107,7 @@ class LoginPage extends StatelessWidget {
               ),
               child: SizedBox.expand(
                 child: FlatButton(
+                  onPressed: () {},
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
